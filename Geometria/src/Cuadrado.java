@@ -15,6 +15,6 @@ public class Cuadrado extends Figuras2D{
         System.out.println("Nombre: " + getNombre());
         System.out.println("Número de lados: " + getN());
         System.out.println("Longitud de los lados: " + getLados());
-        areaCuadrado(); // Puedes cambiar esto a perimetroCuadrado() según lo que desees calcular
+        areaCuadrado();
     }
 }
