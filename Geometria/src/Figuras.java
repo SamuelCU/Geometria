@@ -36,10 +36,7 @@ public class Figuras {
 
 
 
-    //metodo perimetro
 
-    public double perimetro(int n, double longitud){
-        double per = longitud * n;
-        return per;
-    }
+
+
 }
