@@ -16,5 +16,7 @@ public class Cuadrado extends Figuras2D{
         System.out.println("Número de lados: " + getN());
         System.out.println("Longitud de los lados: " + getLados());
         areaCuadrado();
+
+        
     }
 }
