@@ -3,6 +3,17 @@ public class Regulares extends Figuras2D {
         super(n, lados, nombre);
     }
     //Area
-    double areaTriangulo;
-    
+    int ndiagonales;
+
+    public int getNdiagonales() {
+        return ndiagonales;
+    }
+
+    public void setNdiagonales(int ndiagonales) {
+        this.ndiagonales = ndiagonales;
+    }
+
+    public void diagonales(){
+        System.out.println("El numero de diagonales de este poligono regular es: "+this.getNdiagonales());
+    }
 }
