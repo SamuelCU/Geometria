@@ -19,7 +19,7 @@ public class Cubo extends Figuras3D{
 
     public void areaCubo(){
         System.out.println("El lado del cubo es: " + this.getLado());
-        System.out.println("El area del cubo es: " + Math.pow(this.getLado(),2)*6);
+        System.out.println("El area de la base del cubo es: " + Math.pow(this.getLado(),2));
     }
     public void volumenCubo(){
         System.out.println("El volumen del cubo es: " + Math.pow(this.getLados(),3));

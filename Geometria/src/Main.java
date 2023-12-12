@@ -21,6 +21,7 @@ public class Main {
 
                 Cuadrado cuadrado = new Cuadrado(4, ladoCuadrado, "Cuadrado");
                 cuadrado.mostrarInformacion();
+                cuadrado.perimetro();
                 break;
 
             case 2:
@@ -28,6 +29,7 @@ public class Main {
                 double ladoTriangulo = scanner.nextDouble();
 
                 TrianguloEquilatero triangulo = new TrianguloEquilatero(3, ladoTriangulo, "Triángulo Equilátero");
+                triangulo.perimetro();
                 triangulo.areat();
                 break;
 
@@ -36,6 +38,7 @@ public class Main {
                 double ladoHexagono = scanner.nextDouble();
 
                 Hexagono hexagono = new Hexagono(6, ladoHexagono, "Hexágono");
+                hexagono.perimetro();
                 hexagono.areat();
                 break;
 
@@ -44,6 +47,7 @@ public class Main {
                 double ladoPentagono = scanner.nextDouble();
 
                 Pentagono pentagono = new Pentagono(5, ladoPentagono, "Pentágono");
+                pentagono.perimetro();
                 pentagono.areat();
                 break;
 
