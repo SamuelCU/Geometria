@@ -36,7 +36,7 @@ public class Main {
                 double ladoHexagono = scanner.nextDouble();
 
                 Hexagono hexagono = new Hexagono(6, ladoHexagono, "Hexágono");
-                hexagono.areahex();
+                hexagono.areat();
                 break;
 
             case 4:
@@ -44,7 +44,7 @@ public class Main {
                 double ladoPentagono = scanner.nextDouble();
 
                 Pentagono pentagono = new Pentagono(5, ladoPentagono, "Pentágono");
-                pentagono.areape();
+                pentagono.areat();
                 break;
 
             case 5:
