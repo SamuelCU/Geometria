@@ -12,8 +12,8 @@ public class Pentagono extends TrianguloEquilatero{
         this.areap = areap;
     }
 
-    public void areape(){
-        areap=areadeltriangulo*5;
-        System.out.println("El area del pentagono es : "+areap);
+    @Override
+    public void areat(){
+        System.out.println("El area es: "+(5*(this.getLados()*this.getLados()*Math.sqrt(3)/4)));
     }
 }

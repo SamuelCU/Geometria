@@ -18,4 +18,8 @@ public class Hexagono extends TrianguloEquilatero{
         areah=areadeltriangulo*6;
         System.out.println("El area del hexgono es: "+areah);
     }
+    @Override
+    public void areat(){
+        System.out.println("El area es: "+(6*(this.getLados()*this.getLados()*Math.sqrt(3)/4)));
+    }
 }
